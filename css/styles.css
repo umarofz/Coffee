@@ -32,8 +32,10 @@ body {
 
 .container {
   max-width: 1320px;
-  margin: 0 auto;
-  padding: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .visually-hidden {
@@ -95,6 +97,7 @@ body {
 /* HERO */
 
 .hero {
+  margin-bottom: 136px;
 }
 
 .hero__container {
@@ -152,4 +155,74 @@ body {
   line-height: 25px;
   text-align: center;
   color: #FEFCF7;
+}
+
+/* COLLECTION */
+
+.collection {
+  margin-bottom: 200px;
+}
+
+.collection__inner-container {
+  max-width: 1151px;
+}
+
+.collection__container {
+  background-image: url("./../images/our__collection.svg");
+  background-repeat: no-repeat;
+  padding-top: 127px;
+}
+
+.visually-hidden {
+}
+
+.collection__list {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.collection__item {
+  margin: 0;
+  padding: 0;
+  margin-right: 21px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.collection__item-img {
+  width: 255px;
+  height: 193px;
+  object-fit: contain;
+  margin-bottom: 68px;
+}
+
+.collection__item-heading {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+
+.collection__item-text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333D4B;
+  margin: 0;
+  padding: 0;
+  width: 255px;
 }
